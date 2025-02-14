@@ -1,0 +1,10 @@
+// Importar variables y mixins
+@import 'variables/variables';
+@import 'mixins/mixins';
+
+// Estilos globales
+@import 'general/global';
+
+// Media queries
+@import 'general/mobile';
+@import 'general/tablet';

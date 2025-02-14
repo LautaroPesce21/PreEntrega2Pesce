@@ -1,0 +1,100 @@
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    header .img {
+        width: 50px;
+    }
+
+    main .img1 {
+        max-width: 90%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .titulo-index h1 {
+        font-size: 25pxl;
+    }
+
+    .texto1 p,
+    .texto2 p {
+        font-size: 25px;
+    }
+
+    .grid {
+        row-gap: 1rem;
+        padding: 1.5rem;
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 25%);
+        }
+
+        .image-item.item-1,
+        .image-item.item-3,
+        .image-item.item-6 {
+            display: none;
+        }
+
+    }
+
+
+
+    .grid {
+        row-gap: 1rem;
+        padding: 1.5rem;
+
+    }
+
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #parrafosecciones {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+    }
+
+    .contactos {
+        padding: $padding-medium;
+    }
+
+    .camioneta-nuevo {
+
+        #camionetaparrafo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-size: $font-size-small;
+
+        }
+    }
+
+    .moto-nuevo {
+        #parrafo-motos {
+            font-size: 15px;
+            padding: 10px;
+        }
+    }
+
+    .auto-nuevo {
+        #parrafo-autos {
+            font-size: 17px;
+            padding: 10px;
+        }
+    }
+
+
+}

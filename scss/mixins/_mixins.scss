@@ -1,0 +1,18 @@
+// Mixin para flexbox
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Mixin para grid
+@mixin grid-layout($columns, $gap) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gap;
+}
+
+// Mixin para bordes de imágenes
+@mixin image-border($color) {
+    border: $border-thin $color;
+}
